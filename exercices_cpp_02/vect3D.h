@@ -1,9 +1,12 @@
 #pragma once
 #include <iostream>
 #include "math.h"
+#include "friends.h"
+
 using namespace std;
 
 static int nb = 0;
+class friends;
 class vect3D
 {
 private:
@@ -28,6 +31,7 @@ public:
 	vect3D add(vect3D v);
 	vect3D minus(vect3D v);
 	float scalaire(vect3D v);
+	friend bool friends::coincide(vect3D& v1, vect3D& v2);
 
 	void afficher();
 	float getNorm();

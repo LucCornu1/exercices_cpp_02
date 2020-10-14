@@ -21,9 +21,15 @@
     <ClCompile Include="vect3D.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="friends.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="vect3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="friends.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

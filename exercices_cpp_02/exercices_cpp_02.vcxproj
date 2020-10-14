@@ -140,9 +140,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="exercices_cpp_02.cpp" />
+    <ClCompile Include="friends.cpp" />
     <ClCompile Include="vect3D.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="friends.h" />
     <ClInclude Include="vect3D.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

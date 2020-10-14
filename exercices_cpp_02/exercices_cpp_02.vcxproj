@@ -141,10 +141,14 @@
   <ItemGroup>
     <ClCompile Include="exercices_cpp_02.cpp" />
     <ClCompile Include="friends.cpp" />
+    <ClCompile Include="matrice.cpp" />
+    <ClCompile Include="vect.cpp" />
     <ClCompile Include="vect3D.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="friends.h" />
+    <ClInclude Include="matrice.h" />
+    <ClInclude Include="vect.h" />
     <ClInclude Include="vect3D.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

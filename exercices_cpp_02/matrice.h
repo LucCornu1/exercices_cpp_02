@@ -4,18 +4,18 @@
 #include <stdlib.h>     /* srand, rand */
 #include <time.h>       /* time */
 
-#define a 3
-#define b 3
+#define A 3
+#define B 3
 
 class vect;
 class matrice
 {
 private:
-	double values[a][b];
+	double values[A][B];
 
 public:
 	matrice();
 	void show();
-	vect prod(vect& v);
+	friend vect prod(matrice& m, vect& v);
 };
 

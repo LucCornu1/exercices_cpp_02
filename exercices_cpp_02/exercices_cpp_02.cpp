@@ -16,15 +16,17 @@ int main()
     vect1.normax(&vect2)->afficher();
     cout << "scalaire v1 et v2 : " << vect1.scalaire(vect2) << endl;
     
+
+
     //83
     cout << endl << "Vecteur / matrice ex 83" << endl;
     vect v(1, 3, 2);
-    matrice* ma = new matrice();
+    matrice ma;
     
     v.show();
-    ma->show();
+    ma.show();
 
-    vect prodV = ma->prod(v);
+    vect prodV = prod(ma, v);
     prodV.show();
 }
 

@@ -1,3 +1,2 @@
-﻿  matrice.cpp
-C:\Users\netfo\source\repos\exercices_cpp_02\exercices_cpp_02\matrice.cpp(7,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+﻿  exercices_cpp_02.cpp
   exercices_cpp_02.vcxproj -> C:\Users\netfo\source\repos\exercices_cpp_02\Debug\exercices_cpp_02.exe

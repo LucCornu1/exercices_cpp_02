@@ -13,6 +13,6 @@ public:
 	vect(double x, double y, double z);
 	void show();
 
-	friend vect matrice::prod(vect& v);
+	friend vect prod(matrice& m,vect& v);
 };
 
